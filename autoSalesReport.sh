@@ -1,3 +1,3 @@
 #!/bin/bash
-SALESFILE="./sales.csv"
-date --date="last month" "+%m %Y" | ./getReport.py >> $SALESFILE
+#Be sure to change where you want your sales file to point to
+date --date="last month" "+%m %Y" | ./getReport.py >> ~/automaticSales/sales.csv
