@@ -14,5 +14,5 @@ I wanted the organization I work for to have easy access to our monthly sales fi
 - Install mechanicalsoup `pip install mechanicalsoup`
 - Add your Thriftcart URL, a username, and a password to `getReport.py`
   - I would suggest creating a username specifically for the script to use, and only give that username access to reports
-- Set `SALESFILE` in `autoSalesReport.sh` to point to where you would like your CSV
+- Redirect your sales file to a preferred directory.
 - Use your favorite job scheduler to schedule `autoSalesReport.sh` to run every month. I use anacron.
